@@ -413,15 +413,15 @@ button {
 }
 
 #banner_slider a.carousel-control-prev {
-    left: -120px;
-    top: 155px;
+    left: 0px;
+    top: 200px;
     right: initial;
 }
 
 #banner_slider a.carousel-control-next {
     right: initial;
-    top: 100px;
-    left: -120px;
+    top: 300px;
+    left: 0px;
     color: #fcf8f8;
     background-color: #b0d122;
 }
