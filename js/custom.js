@@ -316,7 +316,9 @@ $(function () {
 	$('#banner_slider').carousel({
 		interval: 15000
 	});
-
+	$('#passe').carousel({
+		interval: 5000
+	});
 
 });
 
