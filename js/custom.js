@@ -401,17 +401,17 @@ function check() {
 		sessionStorage.setItem("total", totalValor);
 		descricao.style.display = "block";
 		if (valorHoras == 4 && valorTera > 1) {
-			descricao.innerHTML = "Quick massage em evento corporativo de " + valorHoras + " horas com " + valorTera + " terapeutas profissionais para quantidade aproximada de " + valorTera * 21 + " atendimentos, considerando de 10 a 15 minutos de massagem por pessoa."
+			descricao.innerHTML = "Quick massage em evento corporativo de " + valorHoras + " horas com " + valorTera + " terapeutas profissionais para quantidade aproximada de " + valorTera * 18 + " atendimentos, considerando de 10 a 15 minutos de massagem por pessoa."
 		} else if (valorHoras == 4 && valorTera == 1) {
-			descricao.innerHTML = "Quick massage em evento corporativo de " + valorHoras + " horas com " + valorTera + " terapeuta profissional para quantidade aproximada de " + valorTera * 21 + " atendimentos, considerando de 10 a 15 minutos de massagem por pessoa."
+			descricao.innerHTML = "Quick massage em evento corporativo de " + valorHoras + " horas com " + valorTera + " terapeuta profissional para quantidade aproximada de " + valorTera * 18 + " atendimentos, considerando de 10 a 15 minutos de massagem por pessoa."
 		} else if (valorHoras == 6 && valorTera == 1) {
-			descricao.innerHTML = "Quick massage em evento corporativo de " + valorHoras + " horas com " + valorTera + " terapeuta profissional para quantidade aproximada de " + valorTera * 33 + " atendimentos, considerando de 10 a 15 minutos de massagem por pessoa."
+			descricao.innerHTML = "Quick massage em evento corporativo de " + valorHoras + " horas com " + valorTera + " terapeuta profissional para quantidade aproximada de " + valorTera * 30 + " atendimentos, considerando de 10 a 15 minutos de massagem por pessoa."
 		} else if (valorHoras == 6 && valorTera > 1) {
-			descricao.innerHTML = "Quick massage em evento corporativo de " + valorHoras + " horas com " + valorTera + " terapeutas profissionais para quantidade aproximada de " + valorTera * 33 + " atendimentos, considerando de 10 a 15 minutos de massagem por pessoa."
+			descricao.innerHTML = "Quick massage em evento corporativo de " + valorHoras + " horas com " + valorTera + " terapeutas profissionais para quantidade aproximada de " + valorTera * 30 + " atendimentos, considerando de 10 a 15 minutos de massagem por pessoa."
 		} else if (valorHoras == 8 && valorTera == 1) {
-			descricao.innerHTML = "Quick massage em evento corporativo de " + valorHoras + " horas com " + valorTera + " terapeuta profissional para quantidade aproximada de " + valorTera * 45 + " atendimentos, considerando de 10 a 15 minutos de massagem por pessoa."
+			descricao.innerHTML = "Quick massage em evento corporativo de " + valorHoras + " horas com " + valorTera + " terapeuta profissional para quantidade aproximada de " + valorTera * 42 + " atendimentos, considerando de 10 a 15 minutos de massagem por pessoa."
 		} else if (valorHoras == 8 && valorTera > 1) {
-			descricao.innerHTML = "Quick massage em evento corporativo de " + valorHoras + " horas com " + valorTera + " terapeutas profissionais para quantidade aproximada de " + valorTera * 45 + " atendimentos, considerando de 10 a 15 minutos de massagem por pessoa."
+			descricao.innerHTML = "Quick massage em evento corporativo de " + valorHoras + " horas com " + valorTera + " terapeutas profissionais para quantidade aproximada de " + valorTera * 42 + " atendimentos, considerando de 10 a 15 minutos de massagem por pessoa."
 		}
 		// 6 horas
 		// 38
