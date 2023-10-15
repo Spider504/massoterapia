@@ -358,6 +358,14 @@ button {
     line-height: 70px;
     text-transform: uppercase;
 }
+.banner_modificado {
+    width: 100%;
+    font-size: 50px;
+    color: #fffdfd;
+    font-weight: bold;
+    line-height: 70px;
+    text-transform: uppercase;
+}
 .banner_quick {
     width: 100%;
     font-size: 40px;
@@ -423,7 +431,8 @@ button {
     top: 100px;
     left: -120px;
     color: #fcf8f8;
-    background-color: #b0d122;
+    background-color: #f8180d;
+    
 }
 
 #banner_slider .carousel-control-next,
