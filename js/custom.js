@@ -446,11 +446,14 @@ btnLimpar.addEventListener("click", function () {
 function comprar() {
 	var foneNumero = "+5598992157855";
 
+
 	var valorTera = sessionStorage.getItem("Terapeutas");
 	var valorDura = sessionStorage.getItem("Duração");
+	var valorHoras = valorDura / 2 / 60;
 	var url = "https://wa.me/" + foneNumero + "?text="
-		+ "Quantidade de Terapeutas: 0" + valorTera + "%0a"
-		+ "Valor Total : R$" + valorDura + "Reais %0a%0a"
+		+ "Olá, Gostaria de contratar 0" + valorTera + " Terapeuta(s) "
+		+ "para o serviço de massagem, durante : 0" + valorHoras + " hora(s),"
+		+ " no qual o valor é : R$" + valorDura + " reais %0a%0a"
 
 
 	// if (valorDura && valorTera) {
