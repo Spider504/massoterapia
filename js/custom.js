@@ -453,7 +453,7 @@ function comprar() {
 	var url = "https://wa.me/" + foneNumero + "?text="
 		+ "Olá, Gostaria de contratar 0" + valorTera + " Terapeuta(s) "
 		+ "para o serviço de massagem, durante 0" + valorHoras + " hora(s),"
-		+ " no qual o valor é igual a R$" + valorDura + " reais %0a%0a"
+		+ " no qual o valor é igual a R$" + valorDura + " reais. %0a%0a"
 	// if (valorDura && valorTera) {
 	// 	alert("brasil")
 	// } else {
