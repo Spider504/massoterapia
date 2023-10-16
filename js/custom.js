@@ -449,7 +449,7 @@ function comprar() {
 	var valorTera = sessionStorage.getItem("Terapeutas");
 	var valorDura = sessionStorage.getItem("Duração");
 	var url = "https://wa.me/" + foneNumero + "?text="
-		+ "Quantidade de Terapeutas: " + valorTera + "%0a"
+		+ "Quantidade de Terapeutas: 0" + valorTera + "%0a"
 		+ "Valor Total : R$" + valorDura + "Reais %0a%0a"
 
 
