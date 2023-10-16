@@ -208,6 +208,10 @@ button {
 .padding_0 {
     padding: 0px;
 }
+.margi-botom{
+    margin-bottom: 2000px;
+}
+
 
 
 /* header section start */
@@ -348,6 +352,11 @@ button {
     width: 100%;
     float: left;
     padding-top: 90px;
+}
+.banner_sobre{
+    width: 100%;
+    float: left;
+    padding-top: 10px;
 }
 
 .banner_taital {
