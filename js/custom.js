@@ -444,13 +444,20 @@ btnLimpar.addEventListener("click", function () {
 
 });
 function comprar() {
+	var foneNumero = "+5598992157855";
+
 	var valorTera = sessionStorage.getItem("Terapeutas");
 	var valorDura = sessionStorage.getItem("Duração");
-	if (valorDura && valorTera) {
-		alert("brasil")
-	} else {
-		alert("Selecione a Duração e a Quantidade de Terapeutas");
-	}
+	var url = "https://wa.me/" + foneNumero + "?text="
+		+ "Quantidade de Terapeutas: " + valorTera + "%0a"
+		+ "Valor Total : R$" + valorDura + "Reais %0a%0a"
 
+
+	// if (valorDura && valorTera) {
+	// 	alert("brasil")
+	// } else {
+	// 	alert("Selecione a Duração e a Quantidade de Terapeutas");
+	// }
+	window.open(url, '_blanck').focus();
 
 }
