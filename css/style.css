@@ -391,6 +391,13 @@ button {
     color: #403f3f;
     margin: 20px 0px 0px 0px;
 }
+.banner_texto {
+    width: 90%;
+    float: left;
+    font-size: 21px;
+    color: #f4eaea;
+    margin: 20px 0px 0px 0px;
+}
 
 .btn_main {
     width: 100%;
@@ -478,7 +485,7 @@ button {
     width: 100%;
     float: left;
     padding-left: 100px;
-    padding-top: 105px;
+    padding-top: 1px;
 }
 
 .about_taital {
