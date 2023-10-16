@@ -450,15 +450,16 @@ function comprar() {
 	var valorTera = sessionStorage.getItem("Terapeutas");
 	var valorDura = sessionStorage.getItem("Duração");
 	var valorHoras = valorDura / 2 / 60;
+	var totalValor = valorDura * valorTera;
 	var url = "https://wa.me/" + foneNumero + "?text="
 		+ "Olá, Gostaria de contratar 0" + valorTera + " Terapeuta(s) "
 		+ "para o serviço de massagem, durante 0" + valorHoras + " horas,"
-		+ " no qual o valor é igual a R$" + valorDura + " reais. %0a%0a"
+		+ " no qual o valor é igual a R$ " + totalValor + " reais. %0a%0a"
 	// if (valorDura && valorTera) {
 	// 	alert("brasil")
 	// } else {
 	// 	alert("Selecione a Duração e a Quantidade de Terapeutas");
 	// }
 	window.open(url, '_blanck').focus();
-
+	console.log(totalValor)
 }
