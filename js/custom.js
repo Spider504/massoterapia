@@ -449,17 +449,29 @@ function comprar() {
 
 	var cupom = document.getElementById("cupom").value;
 	var textCupom = cupom.toUpperCase();
+	var cupom20 = "GANHEI20";
+	var cupom15 = "GANHEI15";
+	var cupom10 = "GANHEI10";
+	if (textCupom == cupom20) {
+		var desconto = 0.80;
+	} else if (textCupom == cupom15) {
+		var desconto = 0.85;
+	} else if (textCupom == cupom10) {
+		var desconto = 0.90;
+	}
+
+
 	//console.log(textCupom);
 	var foneNumero = "+5598992157855";
 	var valorTera = sessionStorage.getItem("Terapeutas");
 	var valorDura = sessionStorage.getItem("Duração");
-	if (textCupom == "GANHEI20" && valorDura && valorTera) {
+	if (textCupom == cupom10 || textCupom == cupom15 || textCupom == cupom20 && valorDura && valorTera) {
 
 		var valorHoras = valorDura / 2 / 60;
 		var totalValor = valorDura * valorTera;
 		alert("Olá, Gostaria de contratar 0" + valorTera + " Terapeuta(s) "
 			+ "para o serviço de massagem, durante 0" + valorHoras + " horas,"
-			+ " no qual o valor é igual a R$ " + totalValor * 0.8 + " reais.")
+			+ " no qual o valor é igual a R$ " + totalValor * desconto + " reais.")
 
 
 		var url = "https://wa.me/" + foneNumero + "?text="
