@@ -165,7 +165,19 @@ img {
     margin: 0;
     padding: 0;
 }
-
+.entradaDeTexto {
+    background-color: #f6f6f6;
+    font-size: 15px;
+    color: #07a135;
+    border: none !important; 
+    margin: 0;
+    padding: 0;
+    text-align: center !important;
+    
+}
+input::placeholder {
+    color: #76767670;
+}
 .form-control:focus {
     border-color: #ffffff !important;
     box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);

@@ -445,21 +445,23 @@ btnLimpar.addEventListener("click", function () {
 });
 function comprar() {
 	var foneNumero = "+5598992157855";
-
-
 	var valorTera = sessionStorage.getItem("Terapeutas");
 	var valorDura = sessionStorage.getItem("Duração");
-	var valorHoras = valorDura / 2 / 60;
-	var totalValor = valorDura * valorTera;
-	var url = "https://wa.me/" + foneNumero + "?text="
-		+ "Olá, Gostaria de contratar 0" + valorTera + " Terapeuta(s) "
-		+ "para o serviço de massagem, durante 0" + valorHoras + " horas,"
-		+ " no qual o valor é igual a R$ " + totalValor + " reais. %0a%0a"
-	// if (valorDura && valorTera) {
-	// 	alert("brasil")
-	// } else {
-	// 	alert("Selecione a Duração e a Quantidade de Terapeutas");
-	// }
-	window.open(url, '_blanck').focus();
-	console.log(totalValor)
+	if (valorDura && valorTera) {
+
+
+		var valorHoras = valorDura / 2 / 60;
+		var totalValor = valorDura * valorTera;
+		var url = "https://wa.me/" + foneNumero + "?text="
+			+ "Olá, Gostaria de contratar 0" + valorTera + " Terapeuta(s) "
+			+ "para o serviço de massagem, durante 0" + valorHoras + " horas,"
+			+ " no qual o valor é igual a R$ " + totalValor + " reais. %0a%0a"
+
+		window.open(url, '_blanck').focus();
+
+	} else {
+		alert("Selecione a Duração e a Quantidade de Terapeutas");
+
+	}
+
 }
