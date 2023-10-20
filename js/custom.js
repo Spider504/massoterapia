@@ -431,6 +431,8 @@ btnLimpar.addEventListener("click", function () {
 	var descrip = document.getElementById("description")
 	var terapta = document.getElementById("tera")
 	var durcao = document.getElementById("duracao")
+	var cupom = document.getElementById("cupom")
+	cupom.value = "";
 	total.innerHTML = "";
 	console.log(terapta.options[terapta.selectedIndex].text);
 	console.log(durcao.options[durcao.selectedIndex].text);
@@ -444,14 +446,37 @@ btnLimpar.addEventListener("click", function () {
 
 });
 function comprar() {
+
+	var cupom = document.getElementById("cupom").value;
+	var textCupom = cupom.toUpperCase();
+	//console.log(textCupom);
 	var foneNumero = "+5598992157855";
 	var valorTera = sessionStorage.getItem("Terapeutas");
 	var valorDura = sessionStorage.getItem("Duração");
-	if (valorDura && valorTera) {
-
+	if (textCupom == "GANHEI20" && valorDura && valorTera) {
 
 		var valorHoras = valorDura / 2 / 60;
 		var totalValor = valorDura * valorTera;
+		alert("Olá, Gostaria de contratar 0" + valorTera + " Terapeuta(s) "
+			+ "para o serviço de massagem, durante 0" + valorHoras + " horas,"
+			+ " no qual o valor é igual a R$ " + totalValor * 0.8 + " reais.")
+
+
+		var url = "https://wa.me/" + foneNumero + "?text="
+			+ "Olá, Gostaria de contratar 0" + valorTera + " Terapeuta(s) "
+			+ "para o serviço de massagem, durante 0" + valorHoras + " horas,"
+			+ " no qual o valor é igual a R$ " + totalValor * 0.8 + " reais. %0a%0a"
+
+		window.open(url, '_blanck').focus();
+
+	} else if (valorDura && valorTera) {
+		var valorHoras = valorDura / 2 / 60;
+		var totalValor = valorDura * valorTera;
+		alert("Olá, Gostaria de contratar 0" + valorTera + " Terapeuta(s) "
+			+ "para o serviço de massagem, durante 0" + valorHoras + " horas,"
+			+ " no qual o valor é igual a R$ " + totalValor + " reais.")
+
+
 		var url = "https://wa.me/" + foneNumero + "?text="
 			+ "Olá, Gostaria de contratar 0" + valorTera + " Terapeuta(s) "
 			+ "para o serviço de massagem, durante 0" + valorHoras + " horas,"
