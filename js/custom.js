@@ -446,7 +446,7 @@ btnLimpar.addEventListener("click", function () {
 
 });
 function comprar() {
-
+	var cem = 100;
 	var cupom = document.getElementById("cupom").value;
 	var textCupom = cupom.toUpperCase();
 	var cupom20 = "GANHEI20";
@@ -469,15 +469,13 @@ function comprar() {
 
 		var valorHoras = valorDura / 2 / 60;
 		var totalValor = valorDura * valorTera;
-		alert("Olá, Gostaria de contratar 0" + valorTera + " Terapeuta(s) "
-			+ "para o serviço de massagem, durante 0" + valorHoras + " horas,"
-			+ " no qual o valor é igual a R$ " + totalValor * desconto + " reais.")
+		alert("PARABÉNS!!! VOCÊ ACABA DE GANHAR UM DESCONTO DE " + parseFloat(cem - desconto * cem) + "%  VALOR TOTAL = R$ " + totalValor * desconto + " reais.");
 
 
 		var url = "https://wa.me/" + foneNumero + "?text="
 			+ "Olá, Gostaria de contratar 0" + valorTera + " Terapeuta(s) "
 			+ "para o serviço de massagem, durante 0" + valorHoras + " horas,"
-			+ " no qual o valor é igual a R$ " + totalValor * 0.8 + " reais. %0a%0a"
+			+ " no qual o valor é igual a R$ " + totalValor * desconto + " reais. %0a%0a"
 
 		window.open(url, '_blanck').focus();
 
