@@ -357,6 +357,28 @@ button {
     background-size: 100%;
     padding: 0px 0px 90px 0px;
 }
+.slog{
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    margin-top: 90px;
+    display: block;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-weight: 500;
+}
+.title{
+    text-align: center;
+    width: 100%;
+    font-size: 46px;
+    font-family: "Arial Narrow";
+    color: #a8cb26;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
 
 .banner_taital_main {
     width: 100%;
@@ -931,12 +953,14 @@ textarea#comment.massage-bt::placeholder {
 }
 .absoluta{
     position: relative;
-    right: 259px;
+    left: -300px;
+    margin-top: 30px;
     
 }
 .absoluta2{
     position: relative;
-    right: 65px;
+    right: 125px;
+    margin-top: 32px;
     
 }
 .quadrado {
@@ -1065,7 +1089,7 @@ textarea#comment::placeholder {
     font-size: 14px;
     color: #fefefd;
     text-align: center;
-    margin-left: 0px;
+    margin-left: 38px;
     font-family: 'Poppins', sans-serif;
 }
 
