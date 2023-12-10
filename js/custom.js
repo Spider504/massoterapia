@@ -557,7 +557,7 @@ function pele() {
 
 }
 
-// // Get the modal
+// // Get the m
 // var modal = document.getElementById("myModal");
 
 // // Get the image and insert it inside the modal - use its "alt" text as a caption
