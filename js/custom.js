@@ -317,7 +317,7 @@ $(function () {
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 	// optional
 	$('#banner_slider').carousel({
-		interval: 15000
+		interval: 9000
 	});
 	$('#passe').carousel({
 		interval: 5000
@@ -400,7 +400,11 @@ function check() {
 		let totalValor = resultadoValor(valorTera, valorDura);
 		sessionStorage.setItem("total", totalValor);
 		descricao.style.display = "block";
-		if (valorHoras == 4 && valorTera > 1) {
+		if (valorHoras == 2 && valorTera > 1) {
+			descricao.innerHTML = "Quick massage em evento corporativo de " + valorHoras + " horas com " + valorTera + " terapeutas profissionais para quantidade aproximada de " + valorTera * 15 + " atendimentos, considerando de 10 a 15 minutos de massagem por pessoa."
+		} else if (valorHoras == 2 && valorTera == 1) {
+			descricao.innerHTML = "Quick massage em evento corporativo de " + valorHoras + " horas com " + valorTera + " terapeuta profissional para quantidade aproximada de " + valorTera * 15 + " atendimentos, considerando de 10 a 15 minutos de massagem por pessoa."
+		} else if (valorHoras == 4 && valorTera > 1) {
 			descricao.innerHTML = "Quick massage em evento corporativo de " + valorHoras + " horas com " + valorTera + " terapeutas profissionais para quantidade aproximada de " + valorTera * 15 + " atendimentos, considerando de 10 a 15 minutos de massagem por pessoa."
 		} else if (valorHoras == 4 && valorTera == 1) {
 			descricao.innerHTML = "Quick massage em evento corporativo de " + valorHoras + " horas com " + valorTera + " terapeuta profissional para quantidade aproximada de " + valorTera * 15 + " atendimentos, considerando de 10 a 15 minutos de massagem por pessoa."
@@ -500,3 +504,80 @@ function comprar() {
 	}
 
 }
+;
+
+
+
+function shi() {
+	var descrever = document.getElementById("mensagem-tecnica")
+	var tituloModal = document.getElementById("tecnica")
+	tituloModal.innerHTML = "SHIATSU"
+	descrever.innerHTML = "O shiatsu é uma técnica japonesa que se baseia na harmonização e desbloqueio dos canais de energia do paciente. Portanto, é empregada com o objetivo de aumentar sua energia e consciência sobre si mesmo, além de auxiliar o bom funcionamento dos órgãos e fortalecer o sistema imunológico.Seu nome é originado da combinação de 'shi', que significa 'dedos', e 'atsu', que significa pressão. De fato, a técnica é aplicada por meio da pressão realizada com os dedos ou a palma da mão."
+	$('#staticBackdrop').modal('show')
+
+}
+function relax() {
+	var descrever = document.getElementById("mensagem-tecnica")
+	var tituloModal = document.getElementById("tecnica")
+	tituloModal.innerHTML = "MASSAGEM RELAXANTE"
+	descrever.innerHTML = "É um tipo de massagem profunda que proporciona relaxamento e restaura o equilíbrio do corpo e da mente. Há várias técnicas disponíveis para atender a diversas necessidades, como correção postural, relaxamento e recuperação pós-cirúrgica, entre outras. Os músculos tensos e doloridos podem relaxar com essa técnica. É altamente recomendada para pessoas que sofrem de fibromialgia. Trata-se de uma técnica que utiliza toques suaves para estimular a produção dos hormônios responsáveis pelo relaxamento. A massagem relaxante é especialmente eficaz nesse sentido, pois promove a produção desses hormônios, como a ocitocina, que reduz o estresse, combate o medo e melhora os relacionamentos interpessoais."
+	$('#staticBackdrop').modal('show')
+
+}
+function podal() {
+	var descrever = document.getElementById("mensagem-tecnica")
+	var tituloModal = document.getElementById("tecnica")
+	tituloModal.innerHTML = "REFLEXOLOGIA PODAL"
+	descrever.innerHTML = "É uma técnica terapêutica  que consiste em pressionar determinados pontos dos pés para restabelecer o equilíbrio energético do corpo. Ela auxilia no tratamento de problemas de saúde como ansiedade, estresse, insônia, dor e constipação, entre outros."
+	$('#staticBackdrop').modal('show')
+
+}
+function quick() {
+	var descrever = document.getElementById("mensagem-tecnica")
+	var tituloModal = document.getElementById("tecnica")
+	tituloModal.innerHTML = "QUICK MASSAGE"
+	descrever.innerHTML = "É A Quick Massage é uma massagem breve que tem uma duração aproximada de 15 minutos. O nome é um termo estrangeiro, no qual 'Quick' significa rápido e 'Massage' significa massagem. O nome está diretamente relacionado ao objetivo da terapia: oferecer uma massagem rápida e relaxante."
+	$('#staticBackdrop').modal('show')
+
+}
+function ventosa() {
+	var descrever = document.getElementById("mensagem-tecnica")
+	var tituloModal = document.getElementById("tecnica")
+	tituloModal.innerHTML = "VENTOSATERAPIA"
+	descrever.innerHTML = "Trata-se de uma técnica terapêutica que envolve a aplicação de copos de vidro ou acrílico sobre a pele, criando um vácuo que promove o estímulo da circulação sanguínea e linfática. Tal abordagem remonta às antigas práticas da medicina tradicional chinesa, porém, é também adotada em outras culturas como a árabe e a egípcia."
+	$('#staticBackdrop').modal('show')
+
+}
+function pele() {
+	var descrever = document.getElementById("mensagem-tecnica")
+	var tituloModal = document.getElementById("tecnica")
+	tituloModal.innerHTML = "LIMPEZA DE PELE"
+	descrever.innerHTML = "É um processo que auxilia na diminuição da obstrução dos poros, que resulta em acne e cravos, além de propiciar uma higienização profunda, eliminando resíduos que se acumulam na pele. A limpeza clássica é recomendada para todos os tipos de pele, sendo realizada através da remoção manual das impurezas."
+	$('#staticBackdrop').modal('show')
+
+}
+
+// // Get the modal
+// var modal = document.getElementById("myModal");
+
+// // Get the image and insert it inside the modal - use its "alt" text as a caption
+// var img = document.getElementById("myImg");
+// var modalImg = document.getElementById("img01");
+// var captionText = document.getElementById("caption");
+// img.onclick = function () {
+// 	modal.style.display = "block";
+// 	modalImg.src = this.src;
+// 	captionText.innerHTML = this.alt;
+// }
+
+// // Get the <span> element that closes the modal
+// var span = document.getElementsByClassName("close")[0];
+
+// // When the user clicks on <span> (x), close the modal
+// span.onclick = function () {
+// 	modal.style.display = "none";
+// }
+// function gallery() {
+// 	console.log("amigos");
+
+// }

@@ -18,7 +18,7 @@
    <link rel="canonical" href="https://maoscuidadoras.com.br/index">
    <!-- style css -->
    <link rel="stylesheet" type="text/css" href="css/style.css">
-   
+
 
 
    <!-- Additional CSS Files -->
@@ -109,35 +109,38 @@
       <div class="container">
          <div class="row">
             <div class="col-md-12">
-               <span class="slog">
-                  Melhore o foco das equipes e a produtividade da empresa
+               <div id="" class="carousel slide carousel-fade" data-ride="carousel" data-interval="9000">
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <span class="slog">
+                           Melhore o foco das equipes e a produtividade da empresa
 
-               </span>
-               <h1 class="title">Massagem Empresarial e Corporativa em São Luís
-
-               </h1>
+                        </span>
+                        <h1 class="title">Massagem Empresarial e Corporativa em São Luís</h1>
+                     </div>
+                     <div class="carousel-item">
+                        <span class="slog">
+                           Venha Curtir Um Momento Relax Sem Sair do Condomínio
+                        </span>
+                        <h1 class="title">Massagem Terapêutica nos Condomínios em São Luís</h1>
+                     </div>
+                     <div class="carousel-item">
+                        <span class="slog">
+                           Tenha em seus Eventos Sociais, satisfazendo todos os perfis de público
+                        </span>
+                        <h1 class="title">Massagem em Eventos é uma Excelente Opção</h1>
+                     </div>
+                     
+                  </div>
+               </div>
             </div>
 
          </div>
          <div class="row">
             <div class="col-md-6">
-               <div id="banner_slider" class="carousel slide" data-ride="carousel">
+               <div id="banner_slider" class="carousel slide carousel-fade" data-ride="carousel">
                   <div class="carousel-inner">
                      <div class="carousel-item active">
-                        <div class="banner_taital_main">
-                           <h1 class="banner_taital">EVENTOS E <br>COMEMORAÇÕES</h1>
-                           <p class="banner_text">Ajuda a reduzir a tensão muscular e emocional, prevenir o estresse e
-                              melhorar a circulação, entre outros benefícios para a saúde de funcionários. Profissionais
-                              habilitados com protocolo exclusivo de higiene e cadeiras especiais.</p>
-                           <div class="btn_main">
-                              <div class="contact_bt"><a
-                                    href="https://api.whatsapp.com/send?phone=5598992157855&text=Olá%20gostaria%20de%20ajuda!"
-                                    target="_blank">contactar</a></div>
-
-                           </div>
-                        </div>
-                     </div>
-                     <div class="carousel-item">
                         <div class="banner_taital_main">
                            <h1 class="banner_taital">Melhora o<br>Ambiente Laboral</h1>
                            <p class="banner_text">Para quem contrata esta massagem saiba que não é necessário reservar
@@ -153,10 +156,27 @@
                      </div>
                      <div class="carousel-item">
                         <div class="banner_taital_main">
-                           <h1 class="banner_taital">colaboradores<br>Motivados</h1>
-                           <p class="banner_text">Reconhecimento dos funcionários de que a empresa está investindo em
-                              Qualidade de vida. A massagem ajuda na prevenção de doenças causadas por L.E.R/D.O.R.T, o
-                              que pode contribuir na redução do número de afastamentos.</p>
+                           <h1 class="banner_taital">Leve para o seu<br>Condomínio</h1>
+                           <p class="banner_text">Nossa missão é oferecer uma experiência incrível, promovendo o
+                              bem-estar físico e emocional onde quer que você esteja. Ao investir na qualidade de vida,
+                              a massagem contribui na prevenção de doenças decorrentes de L.E.R/D.O.R.T. e auxilia na
+                              melhora do sono</p>
+                           <div class="btn_main">
+                              <div class="contact_bt"><a
+                                    href="https://api.whatsapp.com/send?phone=5598992157855&text=Olá%20gostaria%20de%20ajuda!"
+                                    target="_blank">contactar</a></div>
+
+                           </div>
+                        </div>
+
+                                            
+                     </div>
+
+
+                     <div class="carousel-item">
+                        <div class="banner_taital_main">
+                           <h1 class="banner_taital">EVENTOS E <br>COMEMORAÇÕES</h1>
+                           <p class="banner_text">Oferecer massagem durante o seu evento é uma maneira de torná-lo extraordinário e evidenciar o quanto você se importa com os seus convidados. Disponibilizamos serviços de spa para os pés em festas ajudando a reduzir a tensão muscular e emocional, prevenindo o estresse e  melhorarando a circulação.</p>
                            <div class="btn_main">
                               <div class="contact_bt"><a
                                     href="https://api.whatsapp.com/send?phone=5598992157855&text=Olá%20gostaria%20de%20ajuda!"
@@ -188,7 +208,8 @@
             <div class="col-md-7">
                <div class="about_taital_main">
                   <h1 class="about_taital">Reflexologia Podal</h1>
-                  <p class="banner_texto">A massoterapia aprimora a qualidade de vida dos colaboradores. Uma equipe mais satisfeita, feliz e saudável conduz a empresa a patamares elevados de performance e resultados.</p>
+                  <p class="banner_texto">A massoterapia aprimora a qualidade de vida dos colaboradores. Uma equipe mais
+                     satisfeita, feliz e saudável conduz a empresa a patamares elevados de performance e resultados.</p>
 
                </div>
             </div>
@@ -211,32 +232,62 @@
          </div>
          <div class="services_section_2">
             <div class="row">
-               <div class="col-md-4">
-                  <div class="color_bt"><a href="#">Shiatshu</a></div>
+               <div onclick="shi()" class="col-md-4">
+                  <div class="color_bt"><span>Shiatsu</span></div>
+
                </div>
                <div class="col-md-4">
-                  <div class="color_bt active"><a href="#">Massagem Relaxante</a></div>
+                  <div onclick="relax()" class="color_bt"><span>Massagem Relaxante</span></div>
+
                </div>
                <div class="col-md-4">
-                  <div class="color_bt"><a href="#">Reflexologia Podal</a></div>
+                  <div onclick="podal()" class="color_bt"><span>Reflexologia Podal</span></div>
                </div>
             </div>
          </div>
          <div class="services_section_2">
             <div class="row">
                <div class="col-md-4">
-                  <div class="color_bt active"><a href="#">Quick Massage</a></div>
+                  <div onclick="quick()" class="color_bt"><span>Quick Massage</span></div>
                </div>
                <div class="col-md-4">
-                  <div class="color_bt"><a href="#">Vetosaterapia</a></div>
+                  <div onclick="ventosa()" class="color_bt"><span>Vetosaterapia</span></div>
                </div>
                <div class="col-md-4">
-                  <div class="color_bt active"><a href="#">Limpeza de Pele</a></div>
+                  <div onclick="pele()" class="color_bt"><span>Limpeza de Pele</span></div>
                </div>
             </div>
          </div>
-         <div class=""></div>
+
+
       </div>
+
+      <!-- Modal -->
+      
+      <div class="modal fade" id="staticBackdrop"  data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="tecnica"></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                   </button>
+               </div>
+               <div class="modal-body" id="mensagem-tecnica">
+                 
+               </div>
+
+            </div>
+            
+            <!-- Colocação de Fotos -->
+
+         </div>
+      </div>
+
+<!-- FIM da Modal -->
+
+
+
       <!-- services section end -->
       <!-- blog section start -->
       <div class="blog_section layout_padding mt-5">
@@ -282,58 +333,62 @@
          </div>
       </div>
       <!-- blog section end -->
-      <!-- ***** Main Banner Area End ***** -->
+     
+      <!-- Empresa Descrição -->
 
-  <section class="services" id="services">
-   <div class="container">
-     <div class="row">
-       <div class="col-lg-6">
-         <div class="service-item">
-           <i class="fas fa-file-invoice-dollar"></i>
-           
-           <h4>Nota Fiscal</h4>
-           <p>Possuímos CNPJ e emitimos a nota fiscal em 48 horas após a conclusão do serviço.</p>
-         </div>
-       </div>
-       <div class="col-lg-6">
-         <div class="service-item">
-            <i class="fa-solid fa-hand-holding-droplet"></i>
-           <h4>Higiene</h4>
-           <p>A cada sessão, a cadeira é higienizada e a touca protetora substituída</p>
-         </div>
-       </div>
-       <div class="col-lg-6">
-         <div class="service-item">
-            <i class="fa-solid fa-spa"></i>
-           <h4>Técnica Exclusiva</h4>
-           <p>Profissionais altamente qualificados, detentores de talentos únicos, oferecendo benefícios imediatos às pessoas.</p>
-         </div>
-       </div>
-       <div class="col-lg-6">
-         <div class="service-item">
-           <i class="fas fa-crown"></i>
-           <h4>Certificação</h4>
-           <p>Nossos massoterapeutas são todos certificados e têm excelentes habilidades técnicas.</p>
-         </div>
-       </div>
-       <div class="col-lg-6">
-         <div class="service-item">
-            <i class="fa-solid fa-calendar-days"></i>
-           <h4>Agendamentos</h4>
-           <p>Realização eficiente de agendamentos, onde os compromissos são estabelecidos de maneira prática e organizada.</p>
-         </div>
-       </div>
-       <div class="col-lg-6">
-         <div class="service-item">
-            <i class="fa-solid fa-clock"></i>
-           <h4>Pontualidade</h4>
-           <p>Os horários são rigorosamente cumpridos e previamente ajustados para acomodação do local onde os serviços serão executados.</p>
-         </div>
-       </div>
-     </div>
-   </div>
- </section>
+      <section class="services" id="services">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-6">
+                  <div class="service-item">
+                     <i class="fas fa-file-invoice-dollar"></i>
 
+                     <h4>Nota Fiscal</h4>
+                     <p>Possuímos CNPJ e emitimos a nota fiscal em 48 horas após a conclusão do serviço.</p>
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="service-item">
+                     <i class="fa-solid fa-hand-holding-droplet"></i>
+                     <h4>Higiene</h4>
+                     <p>A cada sessão, a cadeira é higienizada e a touca protetora substituída</p>
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="service-item">
+                     <i class="fa-solid fa-spa"></i>
+                     <h4>Técnica Exclusiva</h4>
+                     <p>Profissionais altamente qualificados, detentores de talentos únicos, oferecendo benefícios
+                        imediatos às pessoas.</p>
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="service-item">
+                     <i class="fas fa-crown"></i>
+                     <h4>Certificação</h4>
+                     <p>Nossos massoterapeutas são todos certificados e têm excelentes habilidades técnicas.</p>
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="service-item">
+                     <i class="fa-solid fa-calendar-days"></i>
+                     <h4>Agendamentos</h4>
+                     <p>Realização eficiente de agendamentos, onde os compromissos são estabelecidos de maneira prática
+                        e organizada.</p>
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="service-item">
+                     <i class="fa-solid fa-clock"></i>
+                     <h4>Pontualidade</h4>
+                     <p>Os horários são rigorosamente cumpridos e previamente ajustados para acomodação do local onde os
+                        serviços serão executados.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+<!-- Empresa Descrição FIM -->
 
 
 
@@ -355,13 +410,13 @@
                <p class="copyright_text d-sm-none d-md-none d-lg-none d-xl-block">Mãos Cuidadoras</p>
             </div>
             <div class="absoluta2">
-               <p class="copyright_text">2023 All Rights Reserved. Design by Ricardo Aranha</p>
+               <p class="copyright_text">Direitos reservados a Ricardo Aranha</p>
             </div>
 
          </div>
       </div>
-      
-      
+
+
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
@@ -371,7 +426,8 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
-      
+
 </body>
 
 </html>
+
