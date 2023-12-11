@@ -513,7 +513,7 @@ function shi() {
 	var tituloModal = document.getElementById("tecnica")
 	tituloModal.innerHTML = "SHIATSU"
 	descrever.innerHTML = "O shiatsu é uma técnica japonesa que se baseia na harmonização e desbloqueio dos canais de energia do paciente. Portanto, é empregada com o objetivo de aumentar sua energia e consciência sobre si mesmo, além de auxiliar o bom funcionamento dos órgãos e fortalecer o sistema imunológico.Seu nome é originado da combinação de 'shi', que significa 'dedos', e 'atsu', que significa pressão. De fato, a técnica é aplicada por meio da pressão realizada com os dedos ou a palma da mão."
-	$('#staticBackdrop').modal('show')
+	$('#modal-abrir').modal('show')
 
 }
 function relax() {
@@ -521,7 +521,7 @@ function relax() {
 	var tituloModal = document.getElementById("tecnica")
 	tituloModal.innerHTML = "MASSAGEM RELAXANTE"
 	descrever.innerHTML = "É um tipo de massagem profunda que proporciona relaxamento e restaura o equilíbrio do corpo e da mente. Há várias técnicas disponíveis para atender a diversas necessidades, como correção postural, relaxamento e recuperação pós-cirúrgica, entre outras. Os músculos tensos e doloridos podem relaxar com essa técnica. É altamente recomendada para pessoas que sofrem de fibromialgia. Trata-se de uma técnica que utiliza toques suaves para estimular a produção dos hormônios responsáveis pelo relaxamento. A massagem relaxante é especialmente eficaz nesse sentido, pois promove a produção desses hormônios, como a ocitocina, que reduz o estresse, combate o medo e melhora os relacionamentos interpessoais."
-	$('#staticBackdrop').modal('show')
+	$('#modal-abrir').modal('show')
 
 }
 function podal() {
@@ -529,7 +529,7 @@ function podal() {
 	var tituloModal = document.getElementById("tecnica")
 	tituloModal.innerHTML = "REFLEXOLOGIA PODAL"
 	descrever.innerHTML = "É uma técnica terapêutica  que consiste em pressionar determinados pontos dos pés para restabelecer o equilíbrio energético do corpo. Ela auxilia no tratamento de problemas de saúde como ansiedade, estresse, insônia, dor e constipação, entre outros."
-	$('#staticBackdrop').modal('show')
+	$('#modal-abrir').modal('show')
 
 }
 function quick() {
@@ -537,7 +537,7 @@ function quick() {
 	var tituloModal = document.getElementById("tecnica")
 	tituloModal.innerHTML = "QUICK MASSAGE"
 	descrever.innerHTML = "É A Quick Massage é uma massagem breve que tem uma duração aproximada de 15 minutos. O nome é um termo estrangeiro, no qual 'Quick' significa rápido e 'Massage' significa massagem. O nome está diretamente relacionado ao objetivo da terapia: oferecer uma massagem rápida e relaxante."
-	$('#staticBackdrop').modal('show')
+	$('#modal-abrir').modal('show')
 
 }
 function ventosa() {
@@ -545,7 +545,7 @@ function ventosa() {
 	var tituloModal = document.getElementById("tecnica")
 	tituloModal.innerHTML = "VENTOSATERAPIA"
 	descrever.innerHTML = "Trata-se de uma técnica terapêutica que envolve a aplicação de copos de vidro ou acrílico sobre a pele, criando um vácuo que promove o estímulo da circulação sanguínea e linfática. Tal abordagem remonta às antigas práticas da medicina tradicional chinesa, porém, é também adotada em outras culturas como a árabe e a egípcia."
-	$('#staticBackdrop').modal('show')
+	$('#modal-abrir').modal('show')
 
 }
 function pele() {
@@ -553,7 +553,7 @@ function pele() {
 	var tituloModal = document.getElementById("tecnica")
 	tituloModal.innerHTML = "LIMPEZA DE PELE"
 	descrever.innerHTML = "É um processo que auxilia na diminuição da obstrução dos poros, que resulta em acne e cravos, além de propiciar uma higienização profunda, eliminando resíduos que se acumulam na pele. A limpeza clássica é recomendada para todos os tipos de pele, sendo realizada através da remoção manual das impurezas."
-	$('#staticBackdrop').modal('show')
+	$('#modal-abrir').modal('show')
 
 }
 

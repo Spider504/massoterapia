@@ -680,6 +680,31 @@ button {
     background-color: #f8180d;
 }
 
+
+
+.read_bt2 {
+    width: 170px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.read_bt2 a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #fefefd;
+    font-weight: bold;
+    text-align: center;
+    background-color: #a8cb26;
+    padding: 12px;
+}
+
+.read_bt2 a:hover {
+    color: #fefefd;
+    background-color: #f8180d;
+}
+
 /* gallery section end */
 
 /* blog section start */
