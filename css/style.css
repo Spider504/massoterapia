@@ -232,6 +232,7 @@ button {
     background-color: #a8cb26;
     height: auto;
     background-size: 100%;
+    margin-bottom: 12px;
 }
 
 .bg-light {
@@ -269,7 +270,7 @@ button {
 
 .call_text_main{
     width: 100%;
-    float: left;
+    
     background-color: #ffffff;
     height: auto;
     padding: 10px 0px;
@@ -383,7 +384,7 @@ button {
 .banner_taital_main {
     width: 100%;
     float: left;
-    padding-top: 90px;
+    padding-top: 14px;
 }
 .banner_sobre{
     width: 100%;
@@ -1120,6 +1121,7 @@ textarea#comment::placeholder {
     color: #fefefd;
     text-align: center;
     margin-left: 38px;
+    margin-top: -3px;
     font-family: 'Poppins', sans-serif;
 }
 
