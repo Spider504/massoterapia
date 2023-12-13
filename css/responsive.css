@@ -287,12 +287,13 @@
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         text-align: center;
+        display: block;
     }
 
     .call_text_main{
         display: none;
     }
-    
+  
     .serach_icon{
         text-align: center;
     }
@@ -414,6 +415,7 @@
 
 @media (max-width: 575px) {
 
+
     .navbar {
         padding: 15px 0px;
     }
@@ -436,6 +438,7 @@
     .call_text_main{
         display: none;
     }
+  
     
     .serach_icon{
         text-align: center;
