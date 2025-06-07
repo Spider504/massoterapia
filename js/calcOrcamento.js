@@ -335,7 +335,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const dataProposta = new Date().toLocaleDateString("pt-BR");
                 y = renderTextWithLineSpacing(pdf, `PROPOSTA APRESENTADA EM: ${dataProposta} APÓS TRINTA DIAS A PROPOSTA DEVERÁ SER REAPRESENTADA.`, MARGIN, y, MAX_WIDTH, LINE_SPACING_NORMAL, FONT_SIZE_NORMAL);
 
-                pdf.save("carta_proposta_massoterapia_v11.pdf");
+                pdf.save("carta proposta massoterapia.pdf");
             }
 
             numFuncionariosInput.addEventListener("input", calcularEAtualizar);
