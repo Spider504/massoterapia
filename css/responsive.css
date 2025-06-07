@@ -419,6 +419,9 @@
     .navbar {
         padding: 15px 0px;
     }
+    .navbar-brand{
+        font-size: 14px;
+    }
     
     .navbar-light .navbar-toggler {
         color: #fff;

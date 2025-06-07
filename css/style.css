@@ -262,7 +262,7 @@ button {
     height: 30px !important;
     margin: 0px !important;
     color: #fefefd !important;
-    font-size: 20px !important;
+    font-size: 20px;
     position: relative;
     bottom: 27px;
     float: left;
@@ -1184,7 +1184,7 @@ color: #005c80 !important;
       }
 
       .input-group input {
-        width: calc(70% - 40px);
+        width: calc(100% - 20px);
         padding: 3px;
         border: 1px solid #ddd;
         border-radius: 4px;
