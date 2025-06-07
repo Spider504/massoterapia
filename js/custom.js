@@ -430,12 +430,12 @@ function check() {
 }
 const btnLimpar = document.getElementById("btn-limpar");
 
-btnLimpar.addEventListener("click", function () {
+btnLimpar.addEventListener("click", () => {
 	sessionStorage.clear();
-	var descrip = document.getElementById("description")
-	var terapta = document.getElementById("tera")
-	var durcao = document.getElementById("duracao")
-	var cupom = document.getElementById("cupom")
+	var descrip = document.getElementById("description");
+	var terapta = document.getElementById("tera");
+	var durcao = document.getElementById("duracao");
+	var cupom = document.getElementById("cupom");
 	cupom.value = "";
 	total.innerHTML = "";
 	console.log(terapta.options[terapta.selectedIndex].text);
