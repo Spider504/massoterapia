@@ -1151,7 +1151,7 @@ color: #005c80 !important;
    
       .container-spider {
         background-color: hsl(29, 100%, 58%);
-        padding: 30px;
+        padding: 15px;
         margin: 120px 120px 120px 430px;
         border-radius: 8px;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -1184,8 +1184,8 @@ color: #005c80 !important;
       }
 
       .input-group input {
-        width: calc(100% - 22px);
-        padding: 10px;
+        width: calc(70% - 40px);
+        padding: 3px;
         border: 1px solid #ddd;
         border-radius: 4px;
         box-sizing: border-box;
