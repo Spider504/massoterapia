@@ -569,15 +569,4 @@ function togglePopup() {
 }
 
 
-function validarMinimo(campo) {
-    // Transforma o valor digitado em número
-    const valor = parseFloat(campo.value);
-    
-    // Se o usuário apagar tudo, deixa vazio temporariamente para ele digitar
-    if (campo.value === "") return;
 
-    // Se for menor que 15, força o valor a ser 15
-    if (valor < 15) {
-        campo.value = 15;
-    }
-}
