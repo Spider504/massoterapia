@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (valor < 8) {
             if (erroDiv) erroDiv.style.display = "block"; // Mostra o erro
 
-            // 🛑 Limpa ou congela os resultados na tela para NÃO calcular automático
+            //  Limpa ou congela os resultados na tela para NÃO calcular automático
             outputTempoTotal.textContent = "---";
             outputNumTerapeutas.textContent = "---";
             outputCustoEstimado.textContent = "---";
